@@ -10,8 +10,10 @@ This project aims to analyse and generate insight into the trends of crime rates
 
 ## Dataset & Methods
 ---
+
 ### Dataset
 The dataset was taken from the official website of [Data.gov](https://catalog.data.gov/dataset/crimes-2001-to-present). It was extracted by the Chicago Police Department's CLEAR (Citizen Law Enforcement Analysis and Reporting) system. It consists of more than 8 million data entries and 22 columns in total.
+
 ---
 
 ### Methods & Steps
@@ -50,7 +52,7 @@ df.value_counts()
       ```
 4. Gaining insights:
    ##### 1. The fluctuation of crime between 2001-2024 (*line plot + scatterplot + boxplot*)
-   ##### 2. The most common crime types (*bar plot*)
+   ##### 2. The most common crime types (*table*)
    ##### 3. The locations and areas with the highest rate of crimes (*two bar plots*)
    ```python
    # Group the data by year and get monthly counts to observe fluctuations within each year
